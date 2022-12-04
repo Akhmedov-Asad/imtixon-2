@@ -1,0 +1,207 @@
+
+.hero__container {
+    max-width: 1440px;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+
+}
+
+.site__left-title {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../img/Rectangle3_bgi.png);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 68px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 4px;
+
+}
+
+.site-left__blcok {
+    padding: 81px 60px 105px 110px;
+}
+
+.site__left-title2 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 24px;
+}
+
+.site__left-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242B33;
+    margin-bottom: 34px;
+}
+
+.intro__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px 10px;
+    gap: 8px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+}
+
+.site__left-btn-block {
+    display: flex;
+}
+
+.explore__btn {
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px 10px;
+    width: 163px;
+    background: #003459;
+    border-radius: 57px;
+    border: none;
+    margin-left: 15px;
+}
+
+.btn__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    color: #003459;
+}
+
+.site__left-subtitle {
+    max-width: 480px;
+}
+
+.site-hero__block {
+    display: flex;
+}
+
+.site-right__block {
+    max-width: 845px;
+}
+
+.site-right__img-block {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/Group____1.png);
+    background-position-x: left;
+    padding-top: 0;
+}
+
+.explore__btn-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDFDFD;
+}
+.site-right__img-block2{
+    display: none;
+}
+@media screen and (max-width:1150px) {
+    .site-hero__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-left__blcok {
+        padding: 0;
+    }
+
+    .site__left-title2 {
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 60px;
+        text-transform: capitalize;
+        color: #002A48;
+        margin-bottom: 24px;
+    }
+
+    .site__left-title {
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 60px;
+        text-transform: capitalize;
+        color: #002A48;
+    }
+
+    .site__left-title2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 38px;
+        text-transform: capitalize;
+        color: #002A48;
+        margin-bottom: 12px;
+    }
+  .site__left-subtitle{
+    max-width: 382px;
+    font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #242B33;
+margin-bottom: 32px;
+  }
+  .intro__btn{
+    width: 161px;
+    padding: 0;
+  }
+  .explore__btn{
+    width: 163px;
+  }
+  .site__left-btn-block{
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width:540px) {
+    .site__left-title {
+       background-image: none;
+    
+    }
+    .site-hero__block {
+        text-align: center;
+        align-items: center;
+    }
+      .site-right__img-block{
+        display: none;
+      }
+    .site-right__img-block2 {
+        content: "";
+        display: inline-block;
+    }
+    .site-right__img-block {
+        content: "";
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../../img/bgi_cub_2.svg);
+        background-position-x: left;
+        padding-top: 0;
+    }
+    .site__left-title {
+        font-size: 36px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: #002A48;
+    }
+
+    .site__left-title2 {
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #002A48;
+    }
+    .site__left-subtitle{
+        font-weight: 500;
+font-size: 10px;
+line-height: 14px;
+color: #242B33;
+    }
+}

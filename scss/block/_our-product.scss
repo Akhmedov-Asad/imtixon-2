@@ -1,0 +1,18 @@
+.dog__top-btn-sm{
+    display: flex;
+    align-items: center;
+    background: #FCEED5;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+.dog__top-btn-sm > p{
+    font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: flex-end;
+color: #002A48;
+margin-left: 15px;
+}

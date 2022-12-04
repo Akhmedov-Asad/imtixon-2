@@ -1,0 +1,66 @@
+.sellers__container {
+    padding: 40px 130px;
+}
+
+.pet__sellers {
+    display: flex;
+    align-items: center;
+}
+
+.pet__sellers>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+    margin-right: 8px;
+}
+.sellers__block{
+    margin-bottom: 15px;
+}
+.pet__sellers>h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #003459
+}
+
+.sellers-top__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sellers__btn {
+    width: 201px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 8px;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    cursor: pointer;
+    background-color: #fff;
+}
+.sellers__btn > a{
+    font-weight: 500;
+font-size: 12px;
+line-height: 17px;
+align-items: flex-end;
+color: #003459
+}
+@media screen and (max-width:1390px) {
+    .sellers{
+        display: none       ;
+    }
+}
+.sellers__list{
+    display: flex;
+}
+.sellers__item + .sellers__item{
+    margin-left: 20px;
+}

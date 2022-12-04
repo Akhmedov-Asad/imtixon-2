@@ -1,0 +1,125 @@
+.header__container{
+    max-width: 1440px;
+    padding: 28px 130px;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+border-radius: 0px 0px 40px 40px;
+border-radius: 0;
+
+}
+.site-header__block{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.site-header__item-link{
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #003459;
+}
+.site-header__list-block{
+    max-width: 366px;
+}
+.site-header__list{
+    
+    display: flex;
+    align-items: center;
+}
+.site-header__item + .site-header__item{
+    margin-left: 48px;
+}
+
+.header__input{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #99A2A5;
+    border: none;
+     padding: 12px 59px 12px 16px;
+     background: #FDFDFD;
+border-radius: 46px;
+}
+.header__btn{
+width: 203px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 14px 28px 10px;
+background: #003459;
+border-radius: 57px;
+border: none;
+}
+.btn__link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FDFDFD;
+}
+.site-header__select{
+    border: none;
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 0px 0px 40px 40px;
+    border-radius: 0;
+}
+.meny_img{
+    display: none;
+}
+.vector__img{
+    display: none;
+}
+@media screen and (max-width:1350px) {
+    .site-header__list-block{
+        display: none;
+    }
+    .header__container{
+        padding: 25px 90px;
+        
+    }
+}
+@media screen and (max-width:880px) {
+    .header__container{
+        padding: 47px 50px 37px 51px;
+    }
+    .site-header__list-block{
+        display: none;
+    }
+     .site-header__input{
+        display: none;
+     }
+     .site-header__btn{
+        display: none;
+     }
+     .site-header__selection{
+        display: none;
+     }
+     .meny_img{
+        display: inline-block;
+     }
+     .vector__img{
+        display: inline-block;
+     }
+}
+@media screen and (max-width:420px) {
+    .header__container{
+     padding: 13px 12px 8px 10px;
+    }
+    .site-header__list-block{
+        display: none;
+    }
+     .site-header__input{
+        display: none;
+     }
+     .site-header__btn{
+        display: none;
+     }
+     .site-header__selection{
+        display: none;
+     }
+     .meny_img{
+        display: inline-block;
+     }
+     .vector__img{
+        display: inline-block;
+     }
+}

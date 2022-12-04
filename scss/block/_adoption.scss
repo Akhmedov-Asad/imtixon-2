@@ -1,0 +1,33 @@
+
+.adoption__container{
+    padding: 0 130px;
+}
+.adoption__block2{
+    padding: 0;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/Banner2222.svg );
+}
+.adoption__block2{
+    display: flex;
+}
+.more-friend_right-block > h2{
+    font-weight: 800;
+font-size: 52px;
+line-height: 68px;
+text-transform: capitalize;
+color: #003459;
+}
+.more-friend_right-block > h3{
+    font-weight: 700;
+font-size: 30px;
+line-height: 54px;
+text-transform: capitalize;
+color: #003459;
+}
+@media screen and (max-width:1383px) {
+    .adoption{
+        display: none;
+    }
+}
